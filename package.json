@@ -1,0 +1,36 @@
+{
+  "name": "file-force",
+  "version": "1.0.0",
+  "description": "Decentralized anonymous encrypted object/file sharing tools.",
+  "author": "Igor Konovalov",
+  "main": "cli.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ikonovalov/file-force-lts.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node cli.js --help"
+  },
+  "bin": {
+    "fforce": "./bin/cli"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bignumber.js": "^3.0.0",
+    "colors": "^1.1.2",
+    "command-line-args": "^3.0.4",
+    "command-line-usage": "^3.0.8",
+    "commander": "^2.9.0",
+    "ethereumjs-tx": "^1.2.5",
+    "ethereumjs-util": "^5.1.1",
+    "ipfs-api": "^12.1.7",
+    "keythereum": "0.3.2",
+    "node-hkdf-sync": "^1.0.0",
+    "readline-sync": "^1.4.5",
+    "streamifier": "^0.1.1",
+    "tmp": "0.0.29",
+    "web3": "0.18.2",
+    "yaml-config": "^0.3.0"
+  }
+}
